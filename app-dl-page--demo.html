@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Demo--app-download-page/zhihu.app</title>
 	<link rel="stylesheet" href="style.css">
+	<!-- <script src="app-demo.js"></script> -->
 </head>
 <body>
 	<header class="head">
@@ -47,9 +48,10 @@
 					</div>
 				</div>
 				<div class="sample">
-					<video src="https://www.zhihu.com/app/2296a8a768deb0713f15892c95ea17c4.mp4" class="demo-video"></video>
+					<!-- js调用不熟悉，隐藏video tag; -->
+					<!-- <video src="https://www.zhihu.com/app/2296a8a768deb0713f15892c95ea17c4.mp4" class="demo-video"></video>
 					<a href="javascript:;" class="btn-play"></a>
-					<a href="javascript:;" class="btn-close-video"></a>
+					<a href="javascript:;" class="btn-close-video"></a> -->
 				</div>
 			</div>
 		</section>
@@ -71,12 +73,20 @@
 		<section class="section section4"></section>
 		<section class="section section5"></section>
 	</main>
-	<footer></footer>
+	<!-- js直接调用，暂置 -->
+	<footer>
+		©<script src="https://ssl.google-analytics.com/ga.js" async="" ></script>
+		<script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>知乎		
+	</footer>
 </body>
 </html>
 
 
 
+########################
+待解决：
+1>js调用,事件绑定,如btn-play;
+2>页尾footer版权时间生成;
 
 
 
